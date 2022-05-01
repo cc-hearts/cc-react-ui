@@ -13,7 +13,6 @@ const testUseState: React.FC<Props> = function () {
       <button
         onClick={() => {
           setState(state + 1);
-          console.log(state);
         }}
       >
         handle click state

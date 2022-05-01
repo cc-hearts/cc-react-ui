@@ -13,10 +13,14 @@ let stateIndex = 0;
 function createSetter(index: number) {
   return (newState: unknown) => {
     state[index] = newState;
-    render(() => {
-      stateIndex = 0
-    });
+    initRender();
   };
+}
+// TODO: 这里为了结合useState单例的改进
+export function initRender() {
+  render(() => {
+    stateIndex = 0;
+  });
 }
 
 export default function <T>(initialState: T) {
