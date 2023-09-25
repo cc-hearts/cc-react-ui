@@ -1,0 +1,16 @@
+{
+  "name": "@cc-react-ui/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "monaco-editor": "^0.41.0",
+    "monaco-yaml": "^5.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
